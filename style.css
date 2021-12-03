@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navegacion{
+
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+
+}
+
+#navegacion > ul{
+
+    display: flex; 
+    flex-direction: row;
+    color: cornsilk;
+    list-style-type: none;
+    padding: 0;
+}
+
+#navegacion > ul > li{
+
+margin: 10px;
+
+}
+
+body{
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+#banner{ 
+
+    background-image: url(https://img.blogs.es/anexom/wp-content/uploads/2021/08/shutterstock_1146277808-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: -21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#banner > div{
+    color: cornsilk;
+}
+
+#banner > div > button{
+
+    width: 250px;
+    height: 50px;
+    background-color: grey;
+    color: black;
+    border-radius: 9px;
+    border: solid black 0.5pts;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+
+#banner > div > button:hover{
+
+    background-color: dimgrey;
+    cursor: pointer;
+
+}
+
+#div_parrafo{
+
+    display: flex;
+    flex-direction: row;
+    background-color: lightskyblue;
+  
+}
+
+#div_parrafo > p{
+
+        width: 40%;
+        margin: auto 0 auto 0 ;
+        
+}
